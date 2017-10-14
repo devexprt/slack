@@ -1,0 +1,258 @@
+  // import files
+@import "../../app/variable/variable";
+
+.main-settings{
+	padding:$value10*2 13.9%;
+	width:100%;
+	background:#f9f9f9;
+	min-height:$fuild-container;
+	h1.main-hdng{
+		font-size: 2rem;
+        line-height:$fuild-container;
+        letter-spacing: -1px;
+        font-weight: $extra-weight;
+        color: #2c2d30;
+        margin-top:$value10+5px;
+    	i{
+    		color:#7d60c5;
+    		font-size: $value10*2+5px;
+    		margin: $value0+4px;
+    		float: $left;
+    	}
+	}
+	h2.main-hdng{
+		font-size: 1.5rem;
+    	line-height:$fuild-container;
+    	letter-spacing: -1px;
+    	font-weight: $extra-weight;
+	}
+	.account-tabs{
+		margin-top:$value30;
+	}
+	.tab-content{
+		background:$white;
+		border:1px solid #ddd;
+	}
+	.nav-pills{
+		position: $relative;
+		margin:-1px 0;
+		width: $auto;
+		display: $inline-block;
+		li.nav-item{
+			background:$none;
+			display: $inline-block;
+			a{
+				background:transparent;
+				font-weight: $bold-weight;
+				@include border-radius(5px 5px 0 0);
+				color:#0576b9;	
+				border-top:1px solid transparent;
+				border-left:1px solid transparent;
+				border-right:1px solid transparent;
+				padding:12px 22px 11px;
+				font-size: 17px;
+				&:hover{
+					text-decoration: underline!important;
+				}
+				&.active{
+					background:$white;
+					color:#222;
+					font-weight: $bold-weight;
+					border-color:#ddd;
+				}
+			}
+		}
+	}
+	ul.nav-pills-rounded.pull-right{
+		li{
+			a{
+				color: #717274;
+			}
+		}
+	}
+}
+.account-tab-contnt{
+	padding: $value10*2 $value0 $value0;
+}
+
+
+input[type=text], input[type=email], input[type=password], select, textarea{
+	border-radius: 5px !important;
+	border-color: #a0a0a2 !important;
+}
+input[type=text]:hover, input[type=email]:hover, input[type=password]:hover, select:hover, textarea:hover{
+	border-color: #717274 !important;
+}
+
+.left{
+	float: $left;
+}
+
+.btn-large {
+    padding: $value10+4px $value30+2px $value10+6px;
+    font-size: $value10*2;
+}
+
+.main-files-sec{
+	padding:$value10*2 $value10*4 $value10*6;
+	.lft-files-arti{
+		ul{
+			list-style: $none;
+			padding:$value0;
+			margin:$value0;
+			li{
+				margin-bottom: 10px;
+				position: $relative;
+				border:1px solid transparent;
+				padding:5px;
+				@include border-radius(5px);
+				span.file-cion-left{
+					display: $inline-block;
+					margin-right: $value10+5px;
+					vertical-align: top;
+					i{
+						font-size: 50px;
+						color: #2ea664;
+						line-height: 100%;
+					}
+				}
+				span.file-con-rit{
+					display: $inline-block;
+					width: 87%;
+					small{
+						font-size: 13px;
+    					color: #717274;
+					}
+					h5{
+						font-size: 16px;
+					    line-height: 1.2375;
+					    margin-bottom: 2px;
+					    margin: $value0;
+					    font-weight: $extra-weight;
+					    color: #333;
+					    &:hover{
+					    	text-decoration: underline;
+					    }
+					}
+					p{
+						font-size: 14px;
+						color: #2c2d30;
+						margin:$value0;
+					}
+				}
+				&:hover{
+					border-color:#ddd;
+				}
+				.hover-star{
+					position: $absolute;
+					right: $value0+5px;
+					opacity: $value0;
+					background:#fff;
+					transition: .1s ease-in-out;
+					top: $value0+5px;
+					border-radius:2px;
+					border:1px solid #eee;
+					text-align:$center;
+					width:35px;
+					height: 35px;
+					i{
+						font-size: 24px;
+    					line-height: 130%;
+    					color: #333;
+					}
+					&:hover i{
+						color: #fc0;
+					}
+				}
+				&:hover .hover-star{
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+a.inside-select-anchor{
+	border:1px solid transparent;
+	padding:5px!important;
+	margin:0!important;
+	span{
+		display: $inline-block;
+		vertical-align: top;
+		img{
+			max-width: $value30;
+			margin-right: $value10;
+		}
+	}
+	h5{
+		font-size: $value10+3px;
+		font-weight: $bold-weight;
+		display: $inline-block;
+		small{
+			font-weight: $normal;
+			font-size: $value10+3px;
+			display: $block;
+		}
+	}
+	&:hover{
+		background:rgba(45,158,224,.2);
+		border-color:rgba(45,158,224,.3);
+		color:#333;
+	}
+}
+.rit-files-arti{
+	ul{
+		list-style:$none;
+		padding:$value0;
+		li{
+			margin-bottom: $value10+5px;
+			label{
+				font-size: .9rem;
+				font-weight: $extra-weight;
+				display: $block;
+			}
+		}
+		li.add-file-btns{
+			a.btn{
+				height: $value30+7px;
+    			line-height: $value10+7px;
+				i{
+					font-size: $value10+5px;
+					margin-right: $value0+5px;
+				}
+			}
+		}
+		ul.dropdown-menu{
+			li{
+				margin-bottom: $value0;
+			}
+		}
+	}
+}
+.mar0{
+	margin:$value0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

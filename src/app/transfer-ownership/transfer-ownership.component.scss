@@ -1,0 +1,26 @@
+  // import files
+@import "../../app/variable/variable";
+
+.main-settings{
+	padding:$value10*2 13.9%;
+	width:100%;
+	background:#f9f9f9;
+	min-height:$fuild-container;
+	h1.main-hdng{
+		font-size: 2rem;
+        line-height:$fuild-container;
+        letter-spacing: -1px;
+        font-weight: $extra-weight;
+        color: #2c2d30;
+        margin-top:$value10+5px;
+    }
+}
+.transfer-ownr-main{
+	background-color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0 1px 0 rgba(0,0,0,.25);
+    padding: 2rem 2rem 1rem;
+    margin: 0 auto 2rem;
+    position: relative;
+    border: 1px solid #e8e8e8;
+}

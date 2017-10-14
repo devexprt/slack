@@ -1,0 +1,896 @@
+<div class="main-settings"> 
+  <h1 class="main-hdng"><i style="color:#2d9ee0;font-size: 30px;margin-top: 0;" class="ion-gear-a" aria-hidden="true"></i> &nbsp;Settings & Permissions <a class="btn btn-default btn-outline">Import/Export Data &nbsp;&nbsp; <i class="ion-arrow-right-c"></i></a></h1>
+  <p class="m-t-20">Adjust workspace-wide settings and preferences here for <b>bhbhj</b>. You can also <a href="javascript:void(0)">manage members and roles</a>.</p>
+
+  <div class="account-tabs">
+                    <ul class="nav nav-pills nav-pills-rounded">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link active" data-toggle="tab" data-target="#settings-fst">Settings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link" data-toggle="tab" data-target="#permissions-sec">Permissions</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="settings-fst">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapsed">
+          Workspace Signup Mode
+          <small>Choose to make your workspace <a href="javascript:void(0)" class="beforenone">signup process</a> invitation only, or allow anyone with a certain email address format to sign up.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-5 common-checkbox">
+        					<input class="form-control" name="singupmode" id="singupmode1" type="radio">
+					      	<label for="singupmode1">Invitation only</label>
+					      	<div class="clearfix"></div>
+					      	<input class="form-control" name="singupmode" id="singupmode2" type="radio">
+					      	<label  for="singupmode2">Any email address from these domains:</label>
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+        					<textarea class="form-control"></textarea>
+        					<small class="input_note">To allow email addresses from multiple domains, separate them with commas.</small>
+        				</div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Workspace Language
+          <small>Set the language for your workspace. This affects system notifications, Slackbot messages, and sign-up emails. Your workspace language is currently set to: <b>English (US)</b></small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+      	<div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+        					<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">English (US)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Deutsch</a></li>
+                                            <li><a href="javascript:void(0)">Englisg (US)</a></li>
+                                            <li><a href="javascript:void(0)">Espanol</a></li>
+                                            <li><a href="javascript:void(0)">francais</a></li>
+                                          </ul>
+                                      </div> 
+        				</div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Default Channels
+          <small>Choose the channels new members will automatically be added to (in addition to <b>#general)</b>.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-5">
+        					<input type="text" class="form-control" name="">
+        				</div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingfour">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+          Name Display
+          <small>If you’d like, Slack can show your members’ full names instead of their shorter display names.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-5 common-checkbox">
+        					<input class="form-control" name="" id="name-dis1" type="checkbox">
+					      	<label for="name-dis1">Show full names instead of display names</label>
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingsix">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+          Email Display
+          <small>Choose whether to display members’ email addresses in their Slack profiles.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsesix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<p class="alert alert_warning">
+                <i class="ion-android-alert"></i> Note that <a href="javascript:void(0)">test tokens</a> and apps you install on Slack may still access or display email addresses.
+            </p>
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-5 common-checkbox">
+        					<input class="form-control" name="" id="name-dis1" type="checkbox">
+					      	<label for="name-dis1">Display email addresses</label>
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingfive">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+          Do not Disturb
+          <small>Set default <a class="beforenone" href="javascript:void(0)">Do Not Disturb</a> hours for your workspace.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<p class="alert alert_blue">
+                <i class="ion-ios-information"></i> Note that <a href="javascript:void(0)">test tokens</a> and apps you install on Slack may still access or display email addresses.
+            </p>
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-5 common-checkbox">
+        					<input class="form-control" name="" id="disturb1" type="checkbox">
+					      	<label for="disturb1">Automatically disable notifications from:</label>
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-5">
+        					<div class="btn-group selectbox" style="width:130px;min-width:130px;">
+							                <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">10:00 PM<span class="caret"></span></a>
+							                <ul class="dropdown-menu">
+							                  <li><a href="javascript:void(0)">10:00 PM</a></li>
+							                  <li><a href="javascript:void(0)">10:30 PM</a></li>
+							                  <li><a href="javascript:void(0)">11:00 PM</a></li>
+							                  <li><a href="javascript:void(0)">11:30 PM</a></li>
+							                  <li><a href="javascript:void(0)">12:00 PM</a></li>
+							                  <li><a href="javascript:void(0)">12:30 PM</a></li>
+							                </ul>
+							            </div>
+							            &nbsp;&nbsp;<span style="font-size:1rem;">to</span>&nbsp;&nbsp;
+							            <div class="btn-group selectbox" style="width:130px;min-width:130px;">
+							                <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">12:00 AM<span class="caret"></span></a>
+							                <ul class="dropdown-menu">
+							                  <li><a href="javascript:void(0)">10:00 AM</a></li>
+							                  <li><a href="javascript:void(0)">10:30 AM</a></li>
+							                  <li><a href="javascript:void(0)">11:00 AM</a></li>
+							                  <li><a href="javascript:void(0)">11:30 AM</a></li>
+							                  <li><a href="javascript:void(0)">12:00 AM</a></li>
+							                  <li><a href="javascript:void(0)">12:30 AM</a></li>
+							                </ul>
+							            </div>
+					    </div>
+        			</li>
+        			<li class="m-t-5"><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingseven">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+          Join & Leave Messages
+          <small>If you’d like, Slack can let the channel know whenever someone joins or leaves.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseseven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingseven">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-10 common-checkbox">
+        					<input class="form-control" name="" id="join-msg" type="checkbox">
+					      	<label for="join-msg">Show a message when people join or leave channels</label>
+					      	<small class="subtle_silver m-l-20 inline-block">Note: You’ll always see these messages in some cases — such as in small channels, private channels, and when a person joins a channel by invitation.</small>
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingeight">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+          Hide your workspace URL from external sites’ logs
+          <small>Choose whether you’d like to run links from external sites posted in your Slack workspace through a redirect, so those sites can’t see your workspace URL when members visit them.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseeight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingeight">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-10 common-checkbox">
+        					<input class="form-control" name="" id="log-hide" type="checkbox">
+					      	<label for="log-hide">Hide your workspace URL from external sites’ logs</label>
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingnine">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+          Calls
+          <small>Choose how members make calls in Slack. You can use Slack itself or a <a href="javascript:void(0)" class="beforenone">third-party calling app</a>.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsenine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingnine">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-10 common-checkbox">
+        					<input class="form-control" name="" id="call-check" type="checkbox">
+					      	<label for="call-check">Enable calling in Slack, using:</label>
+					      	<div class="btn-group selectbox m-l-20" style="width:100%;min-width:100%;">
+							                <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Infotech<span class="caret"></span></a>
+							                <ul class="dropdown-menu">
+							                  <li><a href="javascript:void(0)">Infotech</a></li>
+							                </ul>
+							            </div>
+					      	<small class="subtle_silver m-l-20 inline-block m-t-10">Enable members to start <a href="javascript:void(0)">voice or video calls</a> with up to fifteen others. (Sharing a call in a channel or with multiple people is a feature available only to workspaces on paid plans.)</small>
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingten">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseten" aria-expanded="false" aria-controls="collapseten">
+          Message Retention
+          <small>Choose for how long you’d like Slack to save your messages.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseten" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingten">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<p class="alert alert_blue">
+                <i class="ion-ios-information"></i> <b>Custom message retention policies are only available to workspaces on paid plans</b>. <a href="javascript:void(0)">Upgrade your plan</a> to get started.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingeleven">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseeleven" aria-expanded="false" aria-controls="collapseeleven">
+          File Retention
+          <small>By default, Slack will save your files for the lifetime of your workspace. You can configure a custom file retention policy type and duration.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseeleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingeleven">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<p class="alert alert_blue">
+                <i class="ion-ios-information"></i> <b>Custom file retention policies are only available to workspaces on paid plans</b>. <a href="javascript:void(0)">Upgrade your plan</a> to get started.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+	<div class="botm-rows-3">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="lft-inside-botm">
+					<span class="workspaces-icon"><img src="assets/images/user.png" alt=""></span>
+					<h4>Workspace Icon</h4>
+					<p>Your workspace icon is used in the desktop and mobile apps, where it’s useful in helping you quickly identify this workspace.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<a href="javascript:void(0)" class="btn btn-default btn-outline">Set Workspace Icon</a>
+			</div>
+		</div>
+	</div>
+	<div class="botm-rows-3">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="lft-inside-botm">
+					<h4>Workspace Name & URL</h4>
+					<p>Your workspace name is <b>bhbhj</b> and your URL is <b>https://bhbhj.slack.com</b>.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<a href="javascript:void(0)" class="btn btn-default btn-outline">Change Workspace Name & URL</a>
+			</div>
+		</div>
+	</div>
+	<div class="botm-rows-3">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="lft-inside-botm">
+					<h4>Delete Workspace</h4>
+					<p>Deleting a Slack workspace cannot be undone. All messages and files will be irretrievable. Please use caution and consider <a href="javascript:void(0)"> exporting your data</a> before deletion.</p>
+					<span class="subtle_silver m-t-10"><b>Note:</b> Don’t delete your workspace if you just want to <b><a href="javascript:void(0)">change your workspace’s name or URL</a></b>. You also might want to <b><a href="javascript:void(0)">export your data</a></b> before deleting your workspace.</span>
+				</div>
+			</div>
+			<div class="col-md-4">
+
+				<a href="javascript:void(0)" class="btn btn-default btn-outline delete-btn">Delete Workspace</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+                        <div role="tabpanel" class="tab-pane" id="permissions-sec">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingtwentyone">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwentyone" aria-expanded="true" aria-controls="collapsetwentyone" class="collapsed">
+          Messaging
+          <small>Set who can use @everyone and @channel, and who can post to your #general channel.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsetwentyone" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwentyone">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can use @channel and @here:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners and Admins only</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>Show a warning when using @channel or @everyone:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Always (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">The first time each day</a></li>
+                                            <li><a href="javascript:void(0)">Once</a></li>
+                                            <li><a href="javascript:void(0)">Never</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can post to #general:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners and Admins only</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can use @everyone:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners and Admins only</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners only</a></li>
+                                            <li><a href="javascript:void(0)">Everone</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingtwentytwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwentytwo" aria-expanded="false" aria-controls="collapsetwentytwo">
+         Invitations
+          <small>Choose whether to allow non-admins to invite new people to <b>bhbhj</b>.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsetwentytwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwentytwo">
+      <div class="panel-body">
+      	<div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-8 common-checkbox">
+        					<input class="form-control" name="" id="except-guests" type="checkbox">
+					      	<label for="except-guests">Allow everyone (except guests) to invite new members.</label>
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingtwentythree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwentythree" aria-expanded="false" aria-controls="collapsetwentythree">
+          Channel Management
+          <small>Choose who can create, archive, and remove members from channels.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsetwentythree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwentythree">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can create private channels:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, plus Multi-Channel Guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except Multi-Channel Guests</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Admins and Owners only</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can create channels:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Admins and Owners only</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can archive channels:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Admins and Owners only</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can remove members from private channels:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Admins and Owners only</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can remove members from channels:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Workspace Admins and Owners only (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners only</a></li>
+                                            <li><a href="javascript:void(0)">Everyone, except guests</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingtwentyfour">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwentyfour" aria-expanded="false" aria-controls="collapsetwentyfour">
+          Message Editing & Deletion
+          <small>Choose when to allow message editing and deletion.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsetwentyfour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwentyfour">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>Allow editing:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Any time<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Any time</a></li>
+                                            <li><a href="javascript:void(0)">Never</a></li>
+                                            <li><a href="javascript:void(0)">Up to 1 minute after posting</a></li>
+                                            <li><a href="javascript:void(0)">Up to 5 minutes after posting</a></li>
+                                            <li><a href="javascript:void(0)">Up to 30 minutes after posting</a></li>
+                                            <li><a href="javascript:void(0)">Up to 1 hour after posting</a></li>
+                                            <li><a href="javascript:void(0)">Up to 24 hours after posting</a></li>
+                                            <li><a href="javascript:void(0)">Up to 1 week after posting</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can delete messages:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owners and Admins only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingtwentyfive">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwentyfive" aria-expanded="false" aria-controls="collapsetwentyfive">
+          Analytics
+          <small>Choose who can view the <a class="beforenone" href="javascript:void(0)">Analytics</a> page.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsetwentyfive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwentyfive">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can view workspace analytics:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owner and Admins only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingtwentysix">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwentysix" aria-expanded="false" aria-controls="collapsetwentysix">
+          Custom Emoji & Loading Messages
+          <small>Choose who can manage custom emoji ( <i class="ion-android-happy"></i> ) and loading messages.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsetwentysix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwentysix">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can manage custom emoji:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owner and Admins only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can manage custom loading messages:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owner and Admins only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingtwentyseven">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwentyseven" aria-expanded="false" aria-controls="collapsetwentyseven">
+          Slackbot Responses
+          <small>Choose who can manage <a href="javascript:void(0)" class="beforenone">Infotech responses</a> for your workspace.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsetwentyseven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwentyseven">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-8 common-checkbox">
+        					<input class="form-control" name="" id="response1" type="checkbox">
+					      	<label for="response1">Enable Slackbot responses</label>
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can manage Slackbot responses for your workspace:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owner and Admins only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can manage custom loading messages:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owner and Admins only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingtwentyeight">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwentyeight" aria-expanded="false" aria-controls="collapsetwentyeight">
+          Public File Sharing
+          <small>Choose whether to allow members to <a href="javascript:void(0)" class="beforenone">share files externally</a> by creating public URLs.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsetwentyeight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwentyeight">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-8 common-checkbox">
+        					<input class="form-control" name="" id="response2" type="checkbox">
+					      	<label for="response2">Enable public file URL creation</label>
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can manage custom loading messages:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owner and Admins only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingtwentynine">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwentynine" aria-expanded="false" aria-controls="collapsetwentynine">
+          Gateways
+          <small>Choose whether to enable gateways so that users can connect to Slack with XMPP or IRC clients.</small>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsetwentynine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwentynine">
+      <div class="panel-body">
+        <div class="inside-passwd">
+        	<form>
+        		<ul>
+        			<li class="row">
+        				<div class="form-group col-md-8 common-checkbox">
+        					<input class="form-control" name="" id="xmpp" type="checkbox">
+					      	<label for="xmpp">Enable XMPP gateway (SSL only)</label>
+					      	<div class="clearfix"></div>
+					      	<input class="form-control" name="" id="irc" type="checkbox">
+					      	<label for="irc">Enable IRC gateway (SSL only)</label>
+					      	<div class="clearfix"></div>
+					      	<span class="m-l-20 block"><input class="form-control" name="" id="non-ssl" type="checkbox">
+					      	<label for="non-ssl">Allow non-SSL IRC connections (plaintext)</label></span>
+					    </div>
+        			</li>
+        			<li class="row">
+        				<div class="form-group col-md-10">
+					      	<label>People who can manage custom loading messages:</label>
+					      	<div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Everyone, except guests (default)<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Everyone, except guests (default)</a></li>
+                                            <li><a href="javascript:void(0)">Workspace Owner and Admins only</a></li>
+                                          </ul>
+                                      </div> 
+					    </div>
+        			</li>
+        			<li><a href="javascript:voit(0)" class="btn btn-green">Save</a></li>
+        		</ul>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+<div class="add-custom-inte">
+                        	<h4>Apps & Custom Integrations</h4>
+                        	<a href="javascript:void(0)">Manage permissions for apps and integrations in the App Directory <i class="ion-ios-arrow-forward"></i> </a>
+                        </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+
+</div>

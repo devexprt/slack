@@ -1,0 +1,307 @@
+<div class="main-settings"> 
+  <h1 class="main-hdng"><i class="fa fa-book" aria-hidden="true"></i> &nbsp;Members <a data-toggle="modal" data-target="#invite-members-pop" class="btn btn-green invite-btn"><i class="ion-person-add"></i> Invite New Members</a> </h1>
+  <div class="owner-permision">
+    <p>You are an <b>Primary Owner</b> of this workspace. You can <a routerLink="">transfer ownership</a>. You can also <a routerLink="/settings-permissions/settings-permissions">manage your workspace settings and permissions</a>.</p>
+    <a href="javascript:void(0)" class="btn btn-default btn-outline"><i class="ion-android-download"></i> Download member list as a CVS</a>
+  </div>
+
+                <div class="account-tabs">
+                    <ul class="nav nav-pills nav-pills-rounded">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link active" data-toggle="tab" data-target="#members-fst">Full Members (2)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link" data-toggle="tab" data-target="#guest-sec">Guest Accounts (0)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link" data-toggle="tab" data-target="#usergroup-third">User Groups</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="tab-content account-tab-contnt">
+                        <div role="tabpanel" class="tab-pane active" id="members-fst">
+                            <div class="members-details">
+                              <div class="filter-mem">
+                                <div class="row">
+                                  <div class="col-md-5">
+                                    <div class="sortby">
+                                      <label>Sort by</label>
+                                      <div class="btn-group selectbox" style="width:80%;min-width:80%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Full Name<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Display Name</a></li>
+                                            <li><a href="javascript:void(0)">Type</a></li>
+                                            <li><a href="javascript:void(0)">Join Date (recent first)</a></li>
+                                            <li><a href="javascript:void(0)">Two-Factor Authentication Enabled</a></li>
+                                            <li><a href="javascript:void(0)">Inactive</a></li>
+                                          </ul>
+                                      </div>  
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    &nbsp;
+                                  </div>
+                                  <div class="col-md-3">
+                                    <form class="form-group search-mem">
+                                      <input type="text" class="form-control" placeholder="Search members" name="">
+                                      <i class="ion-android-search"></i>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                              <hr>
+                              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapsed">
+          <img class="acunt-pro" src="assets/images/user.png" alt="">
+          <h5>
+            John Smith<br>
+            <p>John Smith <i class="ion-record"></i>  <span>johnsmith@gmail.com</span></p>
+          </h5>
+          <span class="rit-mem-owner">Member</span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <div class="make-admin-owner">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="javascript:void(0)" class="btn btn-default btn-outline">Make an Admin</a>
+              <a href="javascript:void(0)" class="btn btn-default btn-outline">Make an Owner</a>
+            </div>
+            <div class="col-md-6">
+              <span class="pull-right">
+              <a href="javascript:void(0)" class="btn btn-link">Deactivate Account</a>
+              <i style="font-size:9px;margin-left:4px;" class="ion-record"></i>
+              <a href="javascript:void(0)" class="btn btn-link">Convert to Guest</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <img class="acunt-pro" src="assets/images/shortcut1.png" alt="">
+          <h5>You <i class="ion-record"></i> <span>Lociada Gourw</span><br>
+            <p><span>info@gmail.com</span></p>
+          </h5>
+          <span class="rit-mem-owner">Primary Owner</span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <div class="make-admin-owner">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="javascript:void(0)" class="btn btn-default btn-outline">Transfer ownership</a>
+            </div>
+            <div class="col-md-6">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="guest-sec">
+                        <div class="filter-mem">
+                                <div class="row">
+                                  <div class="col-md-5">
+                                    <div class="sortby">
+                                      <label>Sort by</label>
+                                      <div class="btn-group selectbox" style="width:80%;min-width:80%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Full Name<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Display Name</a></li>
+                                            <li><a href="javascript:void(0)">Type</a></li>
+                                            <li><a href="javascript:void(0)">Join Date (recent first)</a></li>
+                                            <li><a href="javascript:void(0)">Two-Factor Authentication Enabled</a></li>
+                                            <li><a href="javascript:void(0)">Inactive</a></li>
+                                          </ul>
+                                      </div>  
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    &nbsp;
+                                  </div>
+                                  <div class="col-md-3">
+                                    <form class="form-group search-mem">
+                                      <input type="text" class="form-control" placeholder="Search members" name="">
+                                      <i class="ion-android-search"></i>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                              <hr>
+                          <div class="guest-inside-tab">
+                            <p>Give limited access to your Slack instance to contractors, clients, or friends.</p>
+                            <ul>
+                              <li>
+                                <span><img src="assets/images/icn_guest-restricted.png" alt=""></span>
+                                <span>
+                                  <h2>Multi-Channel Guests</h2>
+                                  <p>An account with access to the channels you specify.</p>
+                                </span>
+                              </li>
+                              <li>
+                                <span><img src="assets/images/icn_guest-restricted.png" alt=""></span>
+                                <span>
+                                  <h2>Single-Channel Guests</h2>
+                                  <p>A free account with access to just one channel.</p>
+                                </span>
+                              </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                            <p class="botm-avail"><b>Both available on our Standard plan.</b>
+                            <small>Learn more about your <a href="javascript:void(0)">upgrade options</a>.</small>
+                            </p>
+                          </div>                        
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="usergroup-third">
+                            <div class="filter-mem">
+                                <div class="row">
+                                  <div class="col-md-5">
+                                    <div class="sortby">
+                                      <label>Sort by</label>
+                                      <div class="btn-group selectbox" style="width:80%;min-width:80%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Full Name<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Display Name</a></li>
+                                            <li><a href="javascript:void(0)">Type</a></li>
+                                            <li><a href="javascript:void(0)">Join Date (recent first)</a></li>
+                                            <li><a href="javascript:void(0)">Two-Factor Authentication Enabled</a></li>
+                                            <li><a href="javascript:void(0)">Inactive</a></li>
+                                          </ul>
+                                      </div>  
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    &nbsp;
+                                  </div>
+                                  <div class="col-md-3">
+                                    <form class="form-group search-mem">
+                                      <input type="text" class="form-control" placeholder="Search members" name="">
+                                      <i class="ion-android-search"></i>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                              <hr>
+                              <div class="user-group-tab">
+                                <div class="row">
+                                  <div class="col-md-9">
+                                    <div class="lft-user-grup-tab">
+                                      <h2>User Groups</h2>
+                                      <p class="m-t-20">While commands like <span>@everyone</span>, <span>@channel</span>, and <span>@here</span> call the attention of members in a conversation, User Groups let you choose exactly who should get your message.
+                                      <br><br>
+                                      Choose a group name, like <span>@design</span> or <span>@marketing</span>, then select the group members. Now, when someone in your workspace mentions the User Group, only its members will be notified. You can even add those members to channels of your choice automatically!
+                                      <br><br>
+                                      Only paid workspaces can create User Groups.</p>
+                                      <a href="javascript:void(0)" class="btn btn-default btn-outline">Learn more</a>
+                                      <a href="javascript:void(0)" class="btn btn-green">Upgrade Now</a>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3">
+                                    <div class="rit-user-grup-tab">
+                                      <img src="assets/images/user_groups.png" alt="">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+
+
+<!-- invite new members pop start -->
+<div class="modal fade white-color" id="invite-members-pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog my-modal full-screen-pop" role="document" >
+    <div class="modal-content ">
+    <div class="hdnd-close-btn">
+      <h6 class="javascript:void(0)"><button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="ion-android-close" aria-hidden="true"></i><small>esc</small></button></h6>
+    </div>
+      <div class="modal-body">
+        <div class="inside-invite-mems">
+        <div class="see-pricing-plans">
+          <p><i class="ion-person-add"></i> Workspaces with paid plans can also invite <b>guests</b>, like contractors, vendors, or clients.
+          <br>
+          <a href="javascript:void(0)">See pricing plans</a>
+          </p>
+        </div>
+        <h2 class="hdng-invite"><i class="ion-paper-airplane"></i> Invite <b>Members</b></h2>
+        <form class="form-group invite-form">
+          <ul>
+            <li class="after-close">
+              <div class="row">
+              <div class="col-md-6 left">
+                <label>Email Address</label>
+                <input type="text" class="form-control" name="" placeholder="name@example.com">
+              </div>
+              <div class="col-md-6 left">
+                <label>Full Name</label>
+                <input type="text" class="form-control" name="" placeholder="optional">
+              </div>
+              </div>
+            </li>
+            <li class="after-close">
+              <div class="row">
+              <div class="col-md-6 left">
+                <label>Email Address</label>
+                <input type="text" class="form-control" name="" placeholder="name@example.com">
+              </div>
+              <div class="col-md-6 left">
+                <label>Full Name</label>
+                <input type="text" class="form-control" name="" placeholder="optional">
+              </div>
+              </div>
+            </li>
+            <li class="after-close">
+              <div class="row">
+              <div class="col-md-6 left">
+                <label>Email Address</label>
+                <input type="text" class="form-control" name="" placeholder="name@example.com">
+              </div>
+              <div class="col-md-6 left">
+                <label>Full Name</label>
+                <input type="text" class="form-control" name="" placeholder="optional">
+              </div>
+              </div>
+            </li>
+            <li>
+              <div class="add-another">
+                <p><a href="javascript:void(0)"><i class="ion-android-add-circle"></i>Add another </a>or <a href="javascript:void(0)">add many at once</a></p>
+                <p class="pull-right"><i class="fa fa-google" aria-hidden="true"></i>Connect <a href="javascript:void(0)">Google Contacts</a></p>
+              </div>
+            </li>
+            <li>
+              <label>Default Channels</label>
+              <p class="edit-delet-p">New <b>members</b> will automatically join <b>general</b> and <b>random</b> <a href="javascript:void(0)">Edit / add</a></p>
+            </li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+            <li>
+            <a href="javascript:void(0)" class="see-pending-link">See pending and accepted invites</a>
+            <a href="javascript:void(0)" class="btn btn-green send-invita-btn">Send Invitations</a>
+            </li>
+          </ul>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- invite new members pop end -->

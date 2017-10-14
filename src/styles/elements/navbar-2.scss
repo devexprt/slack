@@ -1,0 +1,140 @@
+@import "../../app/variable/variable";
+
+
+.navbar-2{ 
+	    height: 4rem;
+	    box-shadow:0 1px 4px rgba(0,0,0,.15);
+	    padding:$value0+6px $value10+5px;
+	    position: $relative;
+	    z-index:1;
+	.lft-nav-2{
+		display: $inline-block;
+		a.menu-toggle{
+			color: #717274;
+			padding:$value10 $value10+5px $value0+3px $value0;
+			display: $inline-block;
+    		font-weight: $extra-weight;
+    		font-size: 1.125rem;
+    		border-right:1px solid #eee;
+    		i{
+    			font-size: 30px;
+    			color: #717274;
+    			margin:-1px $value10+5px 0;
+    			float: $left;
+    			line-height: $fuild-container;
+    		}
+    		&:hover, &:hover i{
+    			color:#0576b9;
+    		}
+		}
+		a.home-user{
+			color: #717274;
+			padding:$value10 $value0;
+			display: $inline-block;
+    		font-weight: $bold-weight;
+    		letter-spacing: -1px;
+    		font-size: 1.4rem;
+    		i{
+    			font-size: 30px;
+    			color: #717274;
+    			margin:-1px $value10+5px 0;
+    			float: $left;
+    			line-height: $fuild-container;
+    		}
+    		&:hover, &:hover i{
+    			color:#0576b9;
+    		}
+		}
+	}
+	.rit-nav-2{
+		float: $right;
+		ul{
+			float: $right;
+			@include ulstyles;
+			li{
+				text-align: $center;
+				display:$inline-block;
+				a{
+					padding: 0 $value10+5px;
+    				display: $block;
+					color: #717274;
+					i{
+						font-size: 24px;
+						line-height: 150%;
+    					height: 26px;
+					}
+					span{
+						font-size: .8rem;
+						font-weight: $bold-weight;
+						display: $block;
+					}
+					img{
+						width: 30px;
+					}
+				}
+				&:hover a{
+					color:#0576b9;
+				}
+			}
+		}
+	}
+	ul.dropdown-menu.workspaces-dropdown{
+	right:$value0;
+	left:$auto;
+	padding:$value0+5px;
+	width:300px;
+		li{
+			display: $block !important;
+			width: 100%;
+			text-align: $left !important;
+			float: $left;
+			a{
+				padding: .25rem;
+			    display: $block !important;
+			    color: #2c2d30;
+			    border-radius: .25rem;
+			    font-size: 1rem;
+			    font-weight: $extra-weight;
+			    margin: 0;
+			    height: 2.75rem;
+			    span{
+			    	display: $inline-block;
+			    	font-size: 1rem;
+			    	b{
+				    	height: 2.25rem;
+					    width: 2.25rem;
+					    padding: .2rem .5rem;
+					    line-height: 1.9rem;
+					    margin-right:$value10;
+					    background: #4D394B;
+					    border-radius: .25rem;
+					    display: $inline-block;
+					    text-align: $center;
+					    font-weight: 900;
+					    color: $white;
+					    font-size: 1rem;
+					    letter-spacing: -1px;
+					    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+				    }
+
+			    }
+			    
+			    i{
+			    	float: $right;
+			    	font-size: 16px;
+			    	color: #2c2d30;
+			    	margin:10px; 
+			    }
+			}
+		}
+		li.active a, li:hover a{
+			background: #f9f9f9;
+			color: #2c2d30;
+		}
+		li:last-child{
+			span{
+				font-size:14px;
+			}
+		}
+}
+}

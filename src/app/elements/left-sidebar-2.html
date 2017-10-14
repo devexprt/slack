@@ -1,0 +1,126 @@
+<nav id="left-sidebar2" class="navmenu displayToggle">
+  <div class="user-signed">
+  	<a href="javascript:void(0)">
+  		<img src="assets/images/user.png" alt="javascript:void(0)"> 
+  		<span>Signed in as<b>nmnmnm</b></span>
+  	</a>
+  </div>
+  <div class="signed-ul">
+  <ul>
+  	<li><a routerLink="/welcome/welcome"><i class="ion-android-arrow-back"></i> Back to infotech</a></li>
+  	<li><a routerLink="javascript:void(0)"><i style="color:#2d9ee0;" class="ion-home"></i> Home</a></li>
+  	<li><a routerLink="/account-settings/account-settings"><i style="color:#2ea664;" class="ion-ios-person-outline"></i> Account & Profile</a></li>
+  	<li><a routerLink="files/files"><i style="color:#2d9ee0;" class="ion-document"></i> Files</a></li>
+  	<li>&nbsp;</li>
+  	<li><span>ADMINISTRATION</span></li>
+  	<li><a routerLink="/settings-permissions/settings-permissions">Settings & Permissions</a></li>
+  	<li><a routerLink="/account-members/account-members">Manage Workspace</a></li>
+  	<li><a routerLink="/invitations/invitations">Invitations</a></li>
+  	<!-- <li><a routerLink="javascript:void(0)">Authentication</a></li> -->
+  </ul>
+  </div>
+  <div class="foot-links-small">
+  	<ul>
+  		<!-- <li><a href="javascript:void(0)">Tour</a></li>
+  		<li><a href="javascript:void(0)">Download Apps</a></li>
+  		<li><a href="javascript:void(0)">Brand Guidelines</a></li>
+  		<li><a href="javascript:void(0)">Help</a></li>
+  		<li><a href="javascript:void(0)">API <i class="fa fa-cog"></i></a></li>
+  		<li><a href="javascript:void(0)">Gateways</a></li>
+  		<li><a href="javascript:void(0)">Pricing</a></li>
+  		<li><a href="javascript:void(0)">Contact</a></li>
+  		<li><a href="javascript:void(0)">Policies</a></li>
+  		<li><a href="javascript:void(0)">Our Blog</a></li> -->
+  		<li><a routerLink="javascript:void(0)">Sign Out <i class="ion-log-out"></i></a></li>
+  		<li><a routerLink="javascript:void(0)"></a></li>
+  		<li><span class="made-heart">Made with &nbsp;&nbsp;<i class="ion-heart"></i>&nbsp;&nbsp; by infotech</span></li>
+  	</ul>
+  </div>
+</nav>
+
+
+
+
+
+
+<!-- edit your profile pop start -->
+<div class="modal fade white-color" id="edit-profile-pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="hdnd-close-btn pop-head-fixed">
+      <h6 class="javascript:void(0)">Edit your profile
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="ion-android-close" aria-hidden="true"></i></button></h6>
+    </div> 
+  <div class="modal-dialog my-modal full-screen-pop" role="document">
+   
+    <div class="modal-content">
+    
+      <div class="modal-body">
+        <div class="col-md-8 col">
+          <form>
+      <div class="row">
+      <div class="col-md-12 form-group">
+        <label>Full name</label>
+        <input class="form-control" placeholder="Full name" type="text">
+      </div>
+      <div class="col-md-12 form-group">
+        <label>Display name(optioal)</label>
+        <input class="form-control" placeholder="Display name" type="text">
+        <small>This could be your first name, or a nickname — however you’d like people to refer to you in infotech.</small>
+      </div>
+      <div class="col-md-12 form-group">
+        <label>What I do</label>
+        <input class="form-control" placeholder="What I do" type="text">
+        <small>Let people know what you do at John.</small>
+      </div>
+      <div class="col-md-12 form-group">
+        <label>Status</label>
+        <input class="form-control" placeholder="Status" type="text">
+      </div>
+      <div class="col-md-12 form-group">
+        <label>Phone number</label>
+        <input class="form-control" placeholder="123-4567-890" type="text">
+        <small>Enter a phone number.</small>
+      </div>
+      <div class="col-md-12 form-group">
+        <label>Time Zone</label>
+        <div class="btn-group selectbox" style="width:100%;min-width:100%;">
+                <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="javascript:void(0)">Show: All Channels<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:void(0)">(UTC-11:00) Midway Island, American Samoa</a></li>
+                  <li><a href="javascript:void(0)">(UTC-10:00) Aleutian Islands</a></li>
+                  <li><a href="javascript:void(0)">(UTC-10:00) Hawaii</a></li>
+                  <li><a href="javascript:void(0)">(UTC-09:30) Marquesas Islands</a></li>
+                  <li><a href="javascript:void(0)">(UTC-09:00) Alaska</a></li>
+                </ul>
+            </div>
+        <small>Your current time zone. Used to send summary and notification emails, for times in your activity feeds, and for reminders.</small>
+      </div>
+      <div class="col-md-12 form-group">
+        <label>Skype</label>
+        <input class="form-control" placeholder="Skype" type="text">
+        <small>This will be displayed on your profile.</small>
+      </div>
+        </div>
+      </form>
+        </div>
+      <div class="col-md-4 col">
+        <div class="pro-pic-attach">
+          <h5>Profile photo</h5>
+          <div class="attchment-pro">
+            <img src="assets/images/pro-acunt.png">
+            <input type="file" id="attachment-pic" style="display:none;">
+            <label class="hover-attach" for="attachment-pic">
+              <i class="ion-camera"></i>
+              Change your profile photo
+            </label>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div> 
+  <div class="pop-foot-fixed">
+    <a class="btn btn-green pull-right " href="javascript:void(0)">Save Changes</a>  
+    <a class="btn btn-default pull-right btn-outline m-l-10" href="javascript:void(0)">Cancel</a>  
+  </div> 
+</div>
+<!-- edit your profile pop end --> 

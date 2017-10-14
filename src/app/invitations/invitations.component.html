@@ -1,0 +1,161 @@
+<div class="main-settings"> 
+  <h1 class="main-hdng"><i class="ion-ios-personadd invita-ico" aria-hidden="true"></i> &nbsp;Invitations</h1>
+  <div class="below-invi">
+  <div class="row">
+    <div class="col-md-6">
+      <p>
+        Invite others to join your workspace. You can also <br><a routerLink="/settings-permissions/settings-permissions"> allow members to sign up using your company's email domain.</a>
+      </p>
+    </div>
+    <div class="col-md-6">
+      <a data-toggle="modal" data-target="#invite-members-pop" class="btn btn-green btn-large invite-btn"><i class="ion-ios-personadd invita-ico" aria-hidden="true"></i> Invite New Members</a>
+    </div>
+  </div>
+  </div>
+
+                <div class="account-tabs">
+                    <ul class="nav nav-pills nav-pills-rounded">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link active" data-toggle="tab" data-target="#members-fst">Accepted Invitations (1)</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="tab-content account-tab-contnt">
+                        <div role="tabpanel" class="tab-pane active" id="members-fst">
+                            <div class="members-details">
+                              <div class="filter-mem">
+                                <div class="row">
+                                  <div class="col-md-5">
+                                    <div class="sortby">
+                                      <label>Sort by</label>
+                                      <div class="btn-group selectbox" style="width:80%;min-width:80%;">
+                                          <a class="btn dropdown-toggle btn-select form-control" data-toggle="dropdown" href="#">Full Name<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Display Name</a></li>
+                                            <li><a href="javascript:void(0)">Type</a></li>
+                                            <li><a href="javascript:void(0)">Join Date (recent first)</a></li>
+                                            <li><a href="javascript:void(0)">Two-Factor Authentication Enabled</a></li>
+                                            <li><a href="javascript:void(0)">Inactive</a></li>
+                                          </ul>
+                                      </div>  
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    &nbsp;
+                                  </div>
+                                  <div class="col-md-3">
+                                    <form class="form-group search-mem">
+                                      <input type="text" class="form-control" placeholder="Search members" name="">
+                                      <i class="ion-android-search"></i>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                              <hr>
+                              <div class="main-invited-peo">
+                              <div class="invited-peo">
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="lft-invited-peo">
+                                      <a href="javascript:void(0)"><img class="acunt-pro" src="assets/images/user.png" alt=""></a>
+                                      <h5>
+                                        <a href="javascript:void(0)">John Smith</a><br>
+                                        <p>John Smith <i class="ion-record"></i>  <span>johnsmith@gmail.com</span></p>
+                                      </h5>        
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="rit-invited-peo">
+                                      <p>Joined Yesterday <br>
+Invited by <a href="javascript:void(0)">John smith</a></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+
+
+<!-- invite new members pop start -->
+<div class="modal fade white-color" id="invite-members-pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog my-modal full-screen-pop" role="document" >
+    <div class="modal-content ">
+    <div class="hdnd-close-btn">
+      <h6 class="javascript:void(0)"><button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="ion-android-close" aria-hidden="true"></i><small>esc</small></button></h6>
+    </div>
+      <div class="modal-body">
+        <div class="inside-invite-mems">
+        <div class="see-pricing-plans">
+          <p><i class="ion-person-add"></i> Workspaces with paid plans can also invite <b>guests</b>, like contractors, vendors, or clients.
+          <br>
+          <a href="javascript:void(0)">See pricing plans</a>
+          </p>
+        </div>
+        <h2 class="hdng-invite"><i class="ion-paper-airplane"></i> Invite <b>Members</b></h2>
+        <form class="form-group invite-form">
+          <ul>
+            <li class="after-close">
+              <div class="row">
+              <div class="col-md-6 left">
+                <label>Email Address</label>
+                <input type="text" class="form-control" name="" placeholder="name@example.com">
+              </div>
+              <div class="col-md-6 left">
+                <label>Full Name</label>
+                <input type="text" class="form-control" name="" placeholder="optional">
+              </div>
+              </div>
+            </li>
+            <li class="after-close">
+              <div class="row">
+              <div class="col-md-6 left">
+                <label>Email Address</label>
+                <input type="text" class="form-control" name="" placeholder="name@example.com">
+              </div>
+              <div class="col-md-6 left">
+                <label>Full Name</label>
+                <input type="text" class="form-control" name="" placeholder="optional">
+              </div>
+              </div>
+            </li>
+            <li class="after-close">
+              <div class="row">
+              <div class="col-md-6 left">
+                <label>Email Address</label>
+                <input type="text" class="form-control" name="" placeholder="name@example.com">
+              </div>
+              <div class="col-md-6 left">
+                <label>Full Name</label>
+                <input type="text" class="form-control" name="" placeholder="optional">
+              </div>
+              </div>
+            </li>
+            <li>
+              <div class="add-another">
+                <p><a href="javascript:void(0)"><i class="ion-android-add-circle"></i>Add another </a>or <a href="javascript:void(0)">add many at once</a></p>
+                <p class="pull-right"><i class="fa fa-google" aria-hidden="true"></i>Connect <a href="javascript:void(0)">Google Contacts</a></p>
+              </div>
+            </li>
+            <li>
+              <label>Default Channels</label>
+              <p class="edit-delet-p">New <b>members</b> will automatically join <b>general</b> and <b>random</b> <a href="javascript:void(0)">Edit / add</a></p>
+            </li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+            <li>
+            <a href="javascript:void(0)" class="see-pending-link">See pending and accepted invites</a>
+            <a href="javascript:void(0)" class="btn btn-green send-invita-btn">Send Invitations</a>
+            </li>
+          </ul>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- invite new members pop end -->
